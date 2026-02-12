@@ -1,1 +1,8 @@
-loadstring(game:HttpGet("https://api.rubis.app/v2/scrap/4wG9iF0i66fezSs8/raw", true))()
+local function s1() 
+ loadstring(game:HttpGet("https://api.rubis.app/v2/scrap/4wG9iF0i66fezSs8/raw", true))()
+end 
+local function s2() 
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Akash1al/Blade-Ball-Updated-Script/refs/heads/main/Blade-Ball-Script"))()
+end 
+task.spawn(s1)
+task.spawn(s2)
